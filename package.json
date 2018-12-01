@@ -1,0 +1,25 @@
+{
+  "name": "node_crawler",
+  "version": "1.0.0",
+  "description": "Node爬虫&amp;爬取数据保存到MySQL之中",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duanzihuang/node_crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duanzihuang/node_crawler/issues"
+  },
+  "homepage": "https://github.com/Duanzihuang/node_crawler#readme",
+  "dependencies": {
+    "crawler": "^1.2.0",
+    "mysql": "^2.16.0"
+  }
+}
